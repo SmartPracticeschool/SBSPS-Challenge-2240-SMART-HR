@@ -1,0 +1,3500 @@
+{
+  "intents": [
+    {
+      "intent": "monkeypatching",
+      "examples": [
+        {
+          "text": "A monkey patch is a way for a program to extend or modify supporting system software locally."
+        },
+        {
+          "text": "Simply put, monkey patching is making changes to a module or class while the program is running"
+        },
+        {
+          "text": "A Monkey Patch is a piece of Python code which extends or modifies other code at runtime (typically at startup)."
+        },
+        {
+          "text": "A MonkeyPatch is a piece of Python code which extends or modifies other code at typically at startup."
+        },
+        {
+          "text": "Monkey-patching is the technique of swapping functions or methods with others in order to change a module, library or class behavior."
+        },
+        {
+          "text": "Monkey-patching is the technique of swapping functions or methods with others in order to change a module, library or class behavior. ... we want each monkey-patch not to rollback all the previous ones"
+        },
+        {
+          "text": "the term monkey patch refers to dynamic (or run-time) modifications of a class or module. In Python, we can actually change the behavior of code at run-time."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "self",
+      "examples": [
+        {
+          "text": "In object-oriented programming, whenever we define methods for a class, we use self as the first parameter in each case"
+        },
+        {
+          "text": "self” keyword we can access the attributes and methods of the class in python"
+        },
+        {
+          "text": "self represents the instance of the class"
+        },
+        {
+          "text": "Most object-oriented languages pass this as a hidden parameter to the methods defined on an object"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "endlessloop",
+      "examples": [
+        {
+          "text": "An endless loop can mean two things"
+        },
+        {
+          "text": "It's a continution repetition of a program segment"
+        },
+        {
+          "text": "it is of two one is designed loop another is incorrect loop condition"
+        },
+        {
+          "text": "Designed loops can quit by loop in correct loops refers to endless loop"
+        },
+        {
+          "text": "It's a sequence of instructions that written will continue endlessly"
+        },
+        {
+          "text": "The loops which do not terminate and keep on executing"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "transationalunit",
+      "examples": [
+        {
+          "text": "This unit is made up of the contents of a single source file after it passes through preprocessing."
+        },
+        {
+          "text": "A translation unit is the basic unit of compilation in C++."
+        },
+        {
+          "text": "In casual usage it is sometimes referred to as a compilation unit."
+        },
+        {
+          "text": "translation unit is the ultimate input to C++ compiler from which an object file is generated"
+        },
+        {
+          "text": "It comprises a single source file (C or CPP), with all header files included, and after all preprocessor statements have been evaluated."
+        },
+        {
+          "text": "A single translation unit can be compiled into an object file, library, or executable program."
+        },
+        {
+          "text": "A translation unit is any preprocessed source file."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "virtualinheritance",
+      "examples": [
+        {
+          "text": "Virtual inheritance is a C++ technique that ensures only one copy of a base class's member variables are inherited by grandchild derived classes."
+        },
+        {
+          "text": "with virtual inheritance you can no longer use class polymorphism"
+        },
+        {
+          "text": "In this object an virtual base class is included with object of derived class once"
+        },
+        {
+          "text": "It ensures only one copy of a base class's member variables are inherited by grandchild derived classes."
+        },
+        {
+          "text": "Virtual inheritance is used when we are dealing with multiple inheritance but want to prevent multiple instance"
+        },
+        {
+          "text": "Virtual base classes is used in it in a way of preventing multiple instance of a given class"
+        },
+        {
+          "text": "member variables are inherited by grandchild derived classes"
+        },
+        {
+          "text": "Virtual base classes are used in virtual inheritance"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "memoryleak",
+      "examples": [
+        {
+          "text": "To avoid this memory allocate in heap should be freed always"
+        },
+        {
+          "text": "It occurs when programers create memory in heap and forget to delete it"
+        },
+        {
+          "text": "It occurs when a memory previously allocated that was not deallocated"
+        },
+        {
+          "text": "It's a type of resource leak it occurs when a program incorrectly manage memory location"
+        },
+        {
+          "text": "It's a problem when a program repeatedly request more memory without freeing up"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "volatile",
+      "examples": [
+        {
+          "text": "Volatile keyword is used to modify the value of a variable by different threads"
+        },
+        {
+          "text": "the volatile keyword indicates that a value may change between different accesses, even if it does not appear to be modified"
+        },
+        {
+          "text": "Objects declared as volatile are omitted from optimization because their values can be changed by code outside the scope of current code at any time."
+        },
+        {
+          "text": "tells the compiler that the value of the variable may change at any time-without any action being taken by the code the compiler finds nearby."
+        },
+        {
+          "text": "variable should be declared volatile whenever its value could change unexpectedly."
+        },
+        {
+          "text": "A variable should be declared volatile whenever its value could change unexpectedly"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "status",
+      "examples": [
+        {
+          "text": "Studying"
+        },
+        {
+          "text": "Onbreak"
+        },
+        {
+          "text": "working"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "copyConstructor",
+      "examples": [
+        {
+          "text": "A copy constructor is a member function which initialises an object using another object of the same class"
+        },
+        {
+          "text": "The copy constructor is used to − Initialize one object from another of the same type. Copy an object to pass it as an argument to a function."
+        },
+        {
+          "text": "a copy constructor can be made private."
+        },
+        {
+          "text": "Copy constructor make it easy to copy objects"
+        },
+        {
+          "text": "When we make a copy constructor private in a class, objects of that class become non-copyable."
+        },
+        {
+          "text": "A copy constructor is an overload constructor used to declare and initialises an object from another"
+        },
+        {
+          "text": "A copy constructor is the constructor that C++ uses to make copies of objects."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "pythonpath",
+      "examples": [
+        {
+          "text": "Pythonpath variable has a value that is a string with a list of directories that Python should add to the sys.path directory list."
+        },
+        {
+          "text": "The Path variable makes it easy to run commonly used programs located in their own folders"
+        },
+        {
+          "text": "Pythonpath is an environment variable which you can set to add additional directories where python will look for modules and package"
+        },
+        {
+          "text": "This variable tells the Python interpreter where to locate the module files imported into a program."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "JITcompiler",
+      "examples": [
+        {
+          "text": "JIT is an integral component of Java Virtual Machine along with Garbage collector"
+        },
+        {
+          "text": "JIT compiler is a component of the runtime environment"
+        },
+        {
+          "text": "It improves the performance of Java™ applications by compiling bytecodes to native machine code at run time."
+        },
+        {
+          "text": "compiler that converts program source code into native machine code just before the program is run."
+        },
+        {
+          "text": "JIT compiler converts Java's intermediate language (bytecode) into native machine code as needed."
+        },
+        {
+          "text": "JIT helps JVM here by compiling currently executing byte code into machine language"
+        },
+        {
+          "text": "There are sophisticated algorithm which helps JIT to pick most executed code for compiling into machine code"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "working",
+      "examples": [
+        {
+          "text": "I like additional compensation"
+        },
+        {
+          "text": "i wanted to work in a different industry"
+        },
+        {
+          "text": "i leave due to personal issues"
+        },
+        {
+          "text": "i want a job with better career growth opportunities"
+        },
+        {
+          "text": "i am looking for new challenge"
+        },
+        {
+          "text": "The company i worked for went out of business"
+        },
+        {
+          "text": "my values no longer align with the company mission"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "yourself",
+      "examples": [
+        {
+          "text": "I'm an organized person"
+        },
+        {
+          "text": "I'm very punctual"
+        },
+        {
+          "text": "I'm an organised person"
+        },
+        {
+          "text": "By maintaining a todo list"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "spaghetti",
+      "examples": [
+        {
+          "text": "It makes the program difficult to understand"
+        },
+        {
+          "text": "Spaghetti code is slang used to describe a program source code difficult to read"
+        },
+        {
+          "text": "Spaghetti programming refers to codes that tend to get tangled and overlapped throughout the program"
+        },
+        {
+          "text": "Saphgetti programs refers to code that tend to get tangled and overlapped"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "finalvariable",
+      "examples": [
+        {
+          "text": "A blank final static variable can be initialized inside static block."
+        },
+        {
+          "text": "Once a final variable has been assigned, it always contains the same value."
+        },
+        {
+          "text": "You can initialize a final variable when it is declared."
+        },
+        {
+          "text": "A final variable is called blank final variable,if it is not initialized while declaration."
+        },
+        {
+          "text": "When a final variable is a reference to an object, then this final variable is called reference final variable."
+        },
+        {
+          "text": "If the final variable is a reference, this means that the variable cannot be re-bound to reference another object."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "gender",
+      "examples": [
+        {
+          "text": "female"
+        },
+        {
+          "text": "others"
+        },
+        {
+          "text": "Male"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "kwargs",
+      "examples": [
+        {
+          "text": "One can think of the kwargs as being a dictionary that maps each keyword to the value that we pass alongside it."
+        },
+        {
+          "text": "Arbitrary Keyword Arguments are often shortened to **kwargs in Python documentations."
+        },
+        {
+          "text": "The usage of the two asterisk before the parameter name, **kwargs, is when one doesn't know how many keyword arguments will be passed into the function."
+        },
+        {
+          "text": "A keyword argument is where you provide a name to the variable as you pass it into the function."
+        },
+        {
+          "text": "**kwargs allow you to pass multiple arguments or keyword arguments to a function."
+        },
+        {
+          "text": "**kwargs in function definitions in python is used to pass a keyworded, variable-length argument list"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "remember",
+      "examples": [
+        {
+          "text": "i am able to recollect activities on time"
+        },
+        {
+          "text": "i have been using Book since 4 years"
+        },
+        {
+          "text": "I use regularly hours Tracker"
+        },
+        {
+          "text": "my phone calendar keeps me on track"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eclipstorage",
+      "examples": [
+        {
+          "text": "auto register static extern"
+        },
+        {
+          "text": "Parent directory"
+        },
+        {
+          "text": "Ellipsis is there consecutive period (.) with no white space. With the help of ellipsis we can write a function of variable number of parameter."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "tq"
+        },
+        {
+          "text": "k tq"
+        },
+        {
+          "text": "k"
+        },
+        {
+          "text": "k whats next"
+        },
+        {
+          "text": "next"
+        },
+        {
+          "text": "ok whats next"
+        },
+        {
+          "text": "hi good afternoon"
+        },
+        {
+          "text": "hi good evening"
+        },
+        {
+          "text": "hi good morning"
+        },
+        {
+          "text": "i am glad to see u"
+        },
+        {
+          "text": "thanks for your welcome"
+        },
+        {
+          "text": "good to see u"
+        },
+        {
+          "text": "hello respected sir/ma'am"
+        },
+        {
+          "text": "hi respected sir/ma'am"
+        },
+        {
+          "text": "hi respected ma'am"
+        },
+        {
+          "text": "hi respected sir"
+        },
+        {
+          "text": "hello respected ma'am"
+        },
+        {
+          "text": "its been a pleasuring to meet you"
+        },
+        {
+          "text": "hello respected sir"
+        },
+        {
+          "text": "hi thankyou"
+        },
+        {
+          "text": "thankyou"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "its fabulous to be with you"
+        },
+        {
+          "text": "i am pleased to be with you"
+        },
+        {
+          "text": "ok what's next"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "i am delighted to be here"
+        },
+        {
+          "text": "thank you for inviting me to collab"
+        },
+        {
+          "text": "i am glad to hear u"
+        },
+        {
+          "text": "ok tq"
+        },
+        {
+          "text": "Its glad to meet you here"
+        },
+        {
+          "text": "its wonderful to be with you"
+        },
+        {
+          "text": "I am so greatful to be here"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "position",
+      "examples": [
+        {
+          "text": "I want to work for this company because of your commitment to diversitty"
+        },
+        {
+          "text": "The company values all types of people"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "programming",
+      "examples": [
+        {
+          "text": "C"
+        },
+        {
+          "text": "C++"
+        },
+        {
+          "text": "JAVA"
+        },
+        {
+          "text": "PYTHON"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "flask",
+      "examples": [
+        {
+          "text": "Flask designed to make getting started quick and easy, with the ability to scale up to complex applications."
+        },
+        {
+          "text": "flask provides you with tools, libraries and technologies that allow you to build a web application."
+        },
+        {
+          "text": "Flask is a web framework."
+        },
+        {
+          "text": "Flask is a popular, extensible web microframework for building web applications with Python."
+        },
+        {
+          "text": "Flask is “Back End” as well as Django."
+        },
+        {
+          "text": "Flask is a lightweight WSGI web application framework."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "aboutyou",
+      "examples": [
+        {
+          "text": "k"
+        },
+        {
+          "text": "yes i will explain"
+        },
+        {
+          "text": "yeah definitely"
+        },
+        {
+          "text": "yes definitely"
+        },
+        {
+          "text": "yeah why not"
+        },
+        {
+          "text": "yes why not"
+        },
+        {
+          "text": "yeah doubtless sir"
+        },
+        {
+          "text": "yeah i will"
+        },
+        {
+          "text": "yes i will"
+        },
+        {
+          "text": "yes im waiting for that"
+        },
+        {
+          "text": "yeah im waiting for that"
+        },
+        {
+          "text": "yeah i will explain"
+        },
+        {
+          "text": "yes sir im ready to say about mine"
+        },
+        {
+          "text": "yeah sir im ready to say about mine"
+        },
+        {
+          "text": "may i know detail which u want"
+        },
+        {
+          "text": "yes doubtless sir"
+        },
+        {
+          "text": "yeah sir perfectly"
+        },
+        {
+          "text": "yes sir perfectly"
+        },
+        {
+          "text": "yeah i'm waiting for that"
+        },
+        {
+          "text": "yes iam waiting for that"
+        },
+        {
+          "text": "yeah sir certainly"
+        },
+        {
+          "text": "yeah im willing to say that"
+        },
+        {
+          "text": "yeah im absolutely convenient to share mine"
+        },
+        {
+          "text": "im absolutely convenient to share mine"
+        },
+        {
+          "text": "iam happy to say that"
+        },
+        {
+          "text": "yes im waiting when do you ask this sir"
+        },
+        {
+          "text": "yes im absolutely convenient to share mine"
+        },
+        {
+          "text": "yes iam happy to say that"
+        },
+        {
+          "text": "yes sir certainly"
+        },
+        {
+          "text": "yeah iam happy to say that"
+        },
+        {
+          "text": "yeah sure"
+        },
+        {
+          "text": "with pleasure mine"
+        },
+        {
+          "text": "what you want to know about me"
+        },
+        {
+          "text": "yeah thats good"
+        },
+        {
+          "text": "yeah thats nice"
+        },
+        {
+          "text": "yes thats nice"
+        },
+        {
+          "text": "yes thats good"
+        },
+        {
+          "text": "yes thats nice/good"
+        },
+        {
+          "text": "yeah thats nice/good"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "im comfortable to say that"
+        },
+        {
+          "text": "yes im comfortable to say that"
+        },
+        {
+          "text": "yeah im comfortable to say that"
+        },
+        {
+          "text": "yes im willing to say that"
+        },
+        {
+          "text": "im willing to say that"
+        },
+        {
+          "text": "im waiting when do you ask this sir"
+        },
+        {
+          "text": "yeah im waiting when do you ask this sir"
+        },
+        {
+          "text": "im cheerful about it"
+        },
+        {
+          "text": "yes im cheerful about it"
+        },
+        {
+          "text": "yeah im cheerful about it"
+        },
+        {
+          "text": "yes sir i am ready"
+        },
+        {
+          "text": "yeah sir i am ready"
+        },
+        {
+          "text": "sir i am ready"
+        },
+        {
+          "text": "i am ready"
+        },
+        {
+          "text": "ok i am ready"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yeah"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "sure"
+        },
+        {
+          "text": "yes sure"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "PersistentObject",
+      "examples": [
+        {
+          "text": "object persistence needs to be implemented in data storage systems like databases."
+        },
+        {
+          "text": "Object persistence denotes the lifetime of an object."
+        },
+        {
+          "text": "Persistent objects are those which survive between successive invocations of the program"
+        },
+        {
+          "text": "Persistent objects are those which survive between successive invocations of the program."
+        },
+        {
+          "text": "If any object is required to live beyond the lifetime of its parent process."
+        },
+        {
+          "text": "A persistent object can live after the program which created it has stopped."
+        },
+        {
+          "text": "To understand persistent objects we agree first what an object is"
+        },
+        {
+          "text": "A persistent object wouls retain its content from instance to instance"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "xrange",
+      "examples": [
+        {
+          "text": "The xrange object allows iteration, indexing, and the len() method"
+        },
+        {
+          "text": "xrange returns an xrange object"
+        },
+        {
+          "text": "xrange doesn't actually generate a static list at run-time like range does. It creates the values as you need them with a special technique called yielding"
+        },
+        {
+          "text": "Since xrange() evaluates items with a slack, so you may break at any point when needed. In this way, you can avoid creating the entire list."
+        },
+        {
+          "text": "The xrange() function in Python is used to generate a sequence of numbers, similar to the range() function."
+        },
+        {
+          "text": "xrange() provides results as an xrange object. It performs a lazy evaluation. It keeps the arguments and produces numbers on call. Unlike range(), it avoids getting all the number in one go."
+        },
+        {
+          "text": "xrange() function always provides the next element on demand. It means that only one item exists in memory at a time. Hence, it consumes less memory."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "jdbcmanager",
+      "examples": [
+        {
+          "text": "The DriverManager class is the traditional management layer of JDBC, working between the user and the drivers."
+        },
+        {
+          "text": "he DriverManager provides a basic service for managing a set of JDBC driver."
+        },
+        {
+          "text": "The combination of the Java API and the JDBC API makes application development easy and cost effective."
+        },
+        {
+          "text": "There are 4 types of JDBC drivers: Type-1 driver or JDBC-ODBC bridge driver. Type-2 driver or Native-API driver. Type-3 driver or Network Protocol driver."
+        },
+        {
+          "text": "It keeps track of the drivers that are available and handles establishing a connection between a database and the appropriate driver."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "hugepointer",
+      "examples": [
+        {
+          "text": "A huge pointer has a size of 4 bytes or 32-bits and it can access up to 64K size in memory."
+        },
+        {
+          "text": "A pointer which can point to any segment in the memory is known as a huge pointer."
+        },
+        {
+          "text": "Huge pointer has the same size of 32-bit to that of a far pointer, and it can also access bits that are located outside the sector."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "onbreak",
+      "examples": [
+        {
+          "text": "college issues"
+        },
+        {
+          "text": "company problems"
+        },
+        {
+          "text": "family problems"
+        },
+        {
+          "text": "health conditions"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "weakness",
+      "examples": [
+        {
+          "text": "I can have trouble asking for help"
+        },
+        {
+          "text": "I get impatient when projects run beyond the deadline"
+        },
+        {
+          "text": "I have trouble saying no."
+        },
+        {
+          "text": "I have a hard time letting go of a project"
+        },
+        {
+          "text": "I'm a kind of person with shy and nervous"
+        },
+        {
+          "text": "I focus too much on the details"
+        },
+        {
+          "text": "communication problems"
+        },
+        {
+          "text": "I sometimes lack confidence"
+        },
+        {
+          "text": "It can be difficult for me to maintain a healthy work/life balance"
+        },
+        {
+          "text": "In the past, I have been uncomfortable with ambiguity"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "parameterizedconstructor",
+      "examples": [
+        {
+          "text": "It having a specific number of arguments to be passed."
+        },
+        {
+          "text": "A constructor with arguments is called parameterized constructor"
+        },
+        {
+          "text": "parameterized constructor is written explicitly by a programmer"
+        },
+        {
+          "text": "parameterized constructor is written explicitly by a programmer."
+        },
+        {
+          "text": "The purpose of a parameterized constructor is to assign user-wanted specific values to the instance variables of different objects"
+        },
+        {
+          "text": "A constructor is called Parameterized Constructor when it accepts a specific number of parameters."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "covariantreturntype",
+      "examples": [
+        {
+          "text": "Covariant return type refers to return type of an overriding method."
+        },
+        {
+          "text": "This feature will help to avoid down casting on the client side."
+        },
+        {
+          "text": "The covariant return type in java, allows narrowing down return type of the overridden method."
+        },
+        {
+          "text": "From Java 5 onwards, we can override a method by changing its return type only by abiding the condition that return type is a subclass of that of overridden method return type"
+        },
+        {
+          "text": "Covariant return type works only for non-primitive return types."
+        },
+        {
+          "text": "The covariant return type specifies that the return type may vary in the same direction as the subclass."
+        },
+        {
+          "text": "covariant Return types simply means returning own Class reference or its child class reference."
+        },
+        {
+          "text": "The covariant return type always works only for non-primitive return types."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "shallowcopy",
+      "examples": [
+        {
+          "text": "The default copy constructor and assignment operator make shallow copies."
+        },
+        {
+          "text": "A shallow copy of an object copies all of the member field values."
+        },
+        {
+          "text": "Whenever you try to create a copy of an object using the shallow copy, all fields of the original objects are copied exactly."
+        },
+        {
+          "text": "Shallow copying is creating a new object and then copying the non static fields of the current object to the new object."
+        },
+        {
+          "text": "A shallow copy is an object created from an existing object by copying all the primitive type values and a copy reference of all associated reference objects type."
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "ellipstorage",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Parent directory",
+          "synonyms": [
+            "ellipsis notation is used to denote ranges",
+            "an unspecified number of arguments",
+            "ellipsis character cannot be used.",
+            "ellipsis to be written as a series of periods",
+            "represent a variable number of parameters to a function",
+            "Ellipsis is there consecutive period (.) with no white space",
+            "parent directory"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "auto register static extern",
+          "synonyms": [
+            "there are 4 storage classes auto register static extern"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ellipsis is there consecutive period (.) with no white space.",
+          "synonyms": [
+            "ellipsis we can write a function of variable number of parameter",
+            "Ellipsis is there consecutive period (.) with no white space."
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "working",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "i leave due to personal issues",
+          "synonyms": [
+            "family problems",
+            "personal problems",
+            "health issues",
+            "work in new city",
+            "relocate to a new city",
+            "place issues",
+            "city issues"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "my values no longer align with the company mission",
+          "synonyms": [
+            "didnot respect",
+            "didnot value",
+            "less value our ideas",
+            "not taken my values",
+            "not giving important to my ideas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The company i worked for went out of business",
+          "synonyms": [
+            "company closes",
+            "company in risk",
+            "company is closed",
+            "company forms business",
+            "company in borrow",
+            "company off"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "I like additional compensation",
+          "synonyms": [
+            "payment issues",
+            "recompense",
+            "remuneration ",
+            "salary issues"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "i wanted to work in a different industry",
+          "synonyms": [
+            "change career paths",
+            "join new company",
+            "found a better opportunity",
+            "don't like current workspace"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "i want a job with better career growth opportunities",
+          "synonyms": [
+            "growth ",
+            "career",
+            "hike",
+            "role",
+            "position",
+            " opportunities"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "i am looking for new challenge",
+          "synonyms": [
+            "i am looking for new position",
+            "i am looking for new projects",
+            "i am looking for new role",
+            "waiting for new role",
+            "waiting for new position",
+            "waiting for new procejts",
+            "role ",
+            "project",
+            "position",
+            "hike"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "male",
+          "synonyms": [
+            "Male",
+            "Male!"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Others",
+          "synonyms": [
+            "OTHERS"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "female",
+          "synonyms": [
+            "female!",
+            "FEMALE"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "hugepointer",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "same size of 32-bit to that of a far pointer",
+          "synonyms": [
+            "bits that are located outside the sector",
+            "cannot be modified in any way",
+            "Huge pointer is a 32-bit to that of a farpointer,",
+            "32-bit to that of a far pointer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A pointer which can point to any segment in the memory",
+          "synonyms": [
+            "A pointer which Can access all the different 16 segments of  RAM",
+            "access whole the residence memory of RAM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Size of 4 bytes /32-bits and it access up to 64k size in memory",
+          "synonyms": [
+            "Size of 4 bytes",
+            "Size of 4 bytes or 32-bits",
+            "Size of  32-bits",
+            "access up to 64k  size in memory"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "status",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "studying",
+          "synonyms": [
+            "unplaced",
+            "waiting to placement",
+            "searching for a job"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "onbreak",
+          "synonyms": [
+            "study complete",
+            "searching higher education",
+            "preparing exams"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "working",
+          "synonyms": [
+            "placed",
+            "searching for a job"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "python",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "self represents the instance of the class",
+          "synonyms": [
+            "It binds the attributes with the given arguments.",
+            "It can access the attributes and methods",
+            "attributes and methods of the class in python",
+            "It as a hidden parameter to the methods defined on an object",
+            "it use self as the first parameter in each case"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "It is the block that defines the function's body.",
+          "synonyms": [
+            "outermost scope of the function ",
+            "but if you write to them anywhere in the function",
+            "it assumes you are making a new local variable",
+            "Python can find outer scope variables if only read inner_read"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "**kwargs allow you to pass multiple arguments",
+          "synonyms": [
+            "**kwargs allow you to pass keyword arguments to a function.",
+            "**kwargs in function in python is used to pass a keyword",
+            "variable-length argument list",
+            "Arbitrary Keyword Arguments are often shortened to **kwargs",
+            "One can think of the kwargs as being a dictionary",
+            "It maps each keyword to the value that we pass alongside it.",
+            "how many keyword arguments will be passed into the function.",
+            "The usage of the two asterisk before the parameter name"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "xrange returns an xrange object",
+          "synonyms": [
+            "The xrange function in Python is used to",
+            "generate a sequence of numbers",
+            "xrange() provides results as an xrange object.",
+            "It performs a lazy evaluation",
+            "It keeps the arguments and produces numbers on call. ",
+            " xrange object allows iteration, indexing, and the len() method",
+            "xrange() function always provides the next element on demand",
+            "Hence, it consumes less memory",
+            "xrange() evaluates items with a slack.",
+            "so you may break at any point when needed.",
+            "In this way, you can avoid creating the entire list.",
+            "Unlike range() it avoids getting all the number in one go.",
+            "It means that only one item exists in memory at a time.",
+            "it consumes less memory."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Flask is a web framework.",
+          "synonyms": [
+            "flask provides you with tools,",
+            "flask provides libraries and technologies",
+            "flask allow you to build a web application.",
+            "Flask is a lightweight WSGI web application framework.",
+            "Flask  designed to make getting started quick and easy",
+            "flask is the ability to scale up to complex applications.",
+            "Flask is “Back End” as well as Django.",
+            "Flask is a popular, extensible web microframework",
+            "Flask is  building web applications with Python."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Python path is an environment variable",
+          "synonyms": [
+            "which you can set to add additional directories ",
+            "python will look for modules and package",
+            "his variable tells the Python interpreter ",
+            "where to locate the module files imported into a program.",
+            "Python should add to the sys.path directory list.",
+            "Variable has a value that is a string with a list of directories",
+            "The Python Path variable makes it easy to run ",
+            "commonly used programs located in their own folders"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A Monkey Patching is a piece of Python code",
+          "synonyms": [
+            "It extends or modifies other code at runtime",
+            "It extends or modifies other code at typically at startup",
+            "monkey patching is making changes to a module",
+            "monkey patching is making changes to a module or class ",
+            "monkey patching is making changes to a class",
+            "Monkey-patching is the technique of swapping functions ",
+            "Monkey-patching is the technique of swapping functions/methods",
+            "In order to change a module, library or class behaviour. ",
+            "we want each monkey-patch not to rollback all the previous ones",
+            "monkey patching refers to dynamic modifications of a class",
+            "monkey patching refers to runtime modifications of a module",
+            "It is a way for a program to extend or modify ",
+            "supporting system software locally"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "remember",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "i am maintaining dairy since 4 years",
+          "synonyms": [
+            "Not even dairy apps like Google keep",
+            "todoist keeps me on track",
+            "simplenote keeps me on track",
+            "Evernote keeps me on track"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "time",
+          "synonyms": [
+            "calendar",
+            "google keep"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "i am able to recollect activities on time",
+          "synonyms": [
+            "i can handle my activities",
+            "i don't forget on activities",
+            "my colleagues make me recall regular activities",
+            "regular interactions with colleagues which keeps me on track"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "my phone calendar keeps me on track",
+          "synonyms": [
+            "my phone calendar keeps me in time",
+            "my phone calendar keeps me with in timeon track",
+            "my phone calendar keeps on  particular time",
+            "todolist",
+            "todo list"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "I use regularly hours Tracker",
+          "synonyms": [
+            "I uses hours tracker which remains me",
+            "I usually uses hours tracker"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cpp",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "It is an object copies all of the member field values.",
+          "synonyms": [
+            "copy constructor and assignment operator make shallow copies.",
+            "create a copy of an object using the shallow copy.",
+            "all copies of the original objects are copied exactly.",
+            "Shallow copying is creating a new object ",
+            "the non static fields of the current object to the new object",
+            "A shallow copy is an object created from an existing object",
+            "copy reference of all associated reference objects type.",
+            "existing object by copying all the primitive type"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "virtual inheritance you can no longer use class polymorphism",
+          "synonyms": [
+            "dealing with multiple inheritance but want to prevent instance",
+            "want to prevent multiple instance",
+            "variable are inherited by grandchild derived class.",
+            "It ensures only one copy of a base class's member.",
+            "Virtual base classes are used in virtual inheritance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "volatile whenever its value could change unexpectedly",
+          "synonyms": [
+            "A variable should be declared volatile ",
+            "whenever its value could change unexpectedly",
+            "Objects declared as volatile",
+            "omitted from optimization ",
+            "code outside the scope of current code at any time.",
+            "values can be changed by code outside",
+            "tells the compiler that the value of the variable",
+            "action being taken by the code the compiler finds nearby",
+            "its value could change unexpectedly.",
+            "value may change between different accesses",
+            "It does not appear to be modified",
+            " modify the value of a variable by different threads"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A translation unit is any preprocessed source file.",
+          "synonyms": [
+            "object file is generated",
+            "sometimes referred to as a compilation unit.",
+            "after it has been processed by the C preprocessor",
+            "consists of a source file",
+            "basic unit of compilation in C++. ",
+            "compiled into an object file, library, or executable program",
+            "basic unit of compilation in Cpp",
+            "It comprises a single source file",
+            "all preprocessor statements have been evaluated.",
+            " C++ compiler from which an object file is generated",
+            "It is sometimes referred to as a compilation unit",
+            "A translation unit is any preprocessed source file.",
+            "A translation unit is the basic unit of compilation in C++."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "implemented in data storage systems like databases.",
+          "synonyms": [
+            "hich survive between successive invocations",
+            "It doesn't support persistence directly",
+            "denotes the lifetime of an object.",
+            "is required to live beyond the lifetime of its parent process",
+            "needs to be implemented in data storage systems like databases",
+            "can live after the program which created it has stopped",
+            "can even outlive different versions of the creating program"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "a copy constructor can be made private.",
+          "synonyms": [
+            "to make it private object of that class no copyable",
+            "used to create a copy of an already existing object",
+            "existing object of a class type.",
+            "private in a class, objects of that class become non-copyable.",
+            "Copy constructor make it easy to copy objects",
+            " constructor that C++ uses to make copies of objects.",
+            "Initialize one object from another of the same type.",
+            "It is a member function which initialises an object ",
+            "It is an object to pass it as an argument to a function.",
+            "It initialises an object using another object of the same class"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "onbreak",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "company issues",
+          "synonyms": [
+            "company problems",
+            "workspace"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "health problems",
+          "synonyms": [
+            "health issues",
+            "major injuries",
+            "minor injuries"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "family problems",
+          "synonyms": [
+            "family issues",
+            "family matters",
+            "sacred space"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "college problems",
+          "synonyms": [
+            "faculty",
+            "academic",
+            "alumni",
+            "universities",
+            "scholars",
+            "supply ",
+            "exam",
+            "examinations"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yourself",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "I'm an organized person",
+          "synonyms": [
+            "Formulate",
+            "Regulate",
+            "Adapt",
+            "Construct",
+            "develop",
+            "build",
+            "adjust",
+            "govern",
+            "I should keep organized in a well structured way",
+            "I like to plan what need to be done",
+            "I like to plan things in a well structured way ",
+            "I like to plan things in a organized way"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "I'm very punctual",
+          "synonyms": [
+            "regular",
+            "accurate",
+            "careful",
+            "In good time",
+            "periodic",
+            "steady"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "By maintaining todo list",
+          "synonyms": [
+            "By maintaining list"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "I like to use Excel to create project schedule",
+          "synonyms": [
+            "I wish to do work",
+            "I complete work by time",
+            "I complete project within time"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "position",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "because of your commitment to diversity",
+          "synonyms": [
+            "Because of your divergence",
+            "Because of your Diverseness",
+            "Because of your Multiplicity",
+            "Because of your assertment"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "salary",
+          "synonyms": [
+            "good hikes ",
+            "salaries",
+            "wage",
+            "remuneration",
+            "stipend"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The company values all types of people",
+          "synonyms": [
+            "it can know all ethics and values",
+            "experience is more important to me",
+            "Friendly Environment",
+            "reviews are good for ",
+            "good company"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "JAVA",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "DriverManager provides a service of managing set of JDBC driver.",
+          "synonyms": [
+            "The DriverManager class is the traditional management layer",
+            "working between the user and the drivers.",
+            "There are 4 types of JDBC drivers",
+            "The combination of the Java API and the JDBC API ",
+            "development easy and cost effective",
+            "connection between a database and the appropriate driver.",
+            "the DriverManager class will attempt to load the driver classes ",
+            "It is referenced in the \"jdbc.drivers\""
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "A constructor with arguments is called parameterized constructor",
+          "synonyms": [
+            "A constructor is called Parameterized Constructor ",
+            "It having a specific number of arguments to be passed.",
+            "parameterized constructor is written explicitly by a programmer.",
+            "It accepts a specific number of parameters",
+            "It uses to increase the flexibility of a class",
+            "It is used to provide different values to distinct object",
+            "It is used to assign different values for different object."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Covariant return type works only for non-primitive return types.",
+          "synonyms": [
+            "The covariant return type specifies that the return type",
+            "return type may vary in the same direction as the subclass.",
+            "allows narrowing down return type of the overridden method.",
+            "This feature will help to avoid down casting on the client side.",
+            "It always works only for non-primitive return types",
+            "It simply means returning own Class reference",
+            "It simply means returning its child class reference."
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "JIT compiler is a component of the runtime environment",
+          "synonyms": [
+            "applications by compiling bytecodes to native machine code",
+            "compiler that converts program source code into machine code",
+            "converts program source code into native machine code",
+            " JIT compiler converts Java's intermediate language ",
+            "JIT helps JVM here by compiling currently executing byte code",
+            "sophisticated algorithm which helps JIT to pick most executed",
+            "JIT is an integral component of JVM"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "You can initialize a final variable when it is declared.",
+          "synonyms": [
+            "A final variable is called blank final variable",
+            "if it is not initialized while declaration",
+            "When a final variable is a reference to an object.",
+            "final variable is called reference final variable",
+            "A  final static variable can be initialized inside static block.",
+            "the variable cannot be re-bound to reference another object."
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "weakness",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "I can have trouble asking for help",
+          "synonyms": [
+            "I can have trouble asking for help to any one of teammate",
+            "I'm hesitate to ask help",
+            "I' shy to ask help with my colleague",
+            "I take sometime to adjust new environment"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "I get impatient when projects run beyond the deadline",
+          "synonyms": [
+            "i'm confused when project deadline comes near",
+            "I cant think properly when deadline goes away"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "I focus too much on the details",
+          "synonyms": [
+            " I focus too much on deadline",
+            " I focus too much in depth of project",
+            "I'm thinking too much for project"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "I sometimes lack confidence",
+          "synonyms": [
+            "lack of self confidence",
+            "i cant handle stress sometime"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "I have trouble saying no.",
+          "synonyms": [
+            "basically i'm shy",
+            "i'm inconvinient to say no",
+            "i'm hesitate to say no"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "difficult for me to maintain a healthy work",
+          "synonyms": [
+            "difficulty to maintain lifestyle",
+            "shy to interact with new persons",
+            "get nervous in toughest situation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Verbal communication",
+          "synonyms": [
+            "lack of communication",
+            "good idea but can't express",
+            "good core knowledge but lack of expressability"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "I'm a kind of person with shy and nervous",
+          "synonyms": [
+            "I'm hesitant person",
+            "I'm very timid",
+            "I'm very cautious ",
+            "I'm a kind of person with shy",
+            "I'm a kind of person with nervous",
+            "I'm a kind of  shy person "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "endlessloopSpaghetti",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "It makes the program difficult to understand",
+          "synonyms": [
+            "It a code that's lacks a coherent structure",
+            "unstructured and difficult to maintain sourcecode",
+            "It can be caused by several factors",
+            "lack of programming style rules",
+            "insufficient ability or experience",
+            "resulting in convoluted and unmaintainable programs"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "An endless loop can mean two things",
+          "synonyms": [
+            "One is that it was designed to loop ",
+            "It's a sequence of instructions",
+            "It's nothing but an infinite loop"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "aboutyou",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ok ready",
+          "synonyms": [
+            "i am ready",
+            "yes i am ready",
+            "yeah i m ready",
+            "ready",
+            "hm ready"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes sure",
+          "synonyms": [
+            "yes sure",
+            "yeah sure",
+            "yes start",
+            "yeah start",
+            "yeah",
+            "yes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sure",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yeah begin",
+          "synonyms": [
+            "shall u begin",
+            "shall we begin",
+            "yes begin"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "program",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "PYTHON",
+          "synonyms": [
+            "Python 3.8.3",
+            "Python 3.8. 2",
+            "Python 3.8. 1",
+            "Python 3.8. 0",
+            "Python 3.7. 8",
+            "Python 3.7",
+            "Python2.0"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "C++",
+          "synonyms": [
+            "C++98",
+            "C++03",
+            "C++11",
+            "C++14",
+            "C++17"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "C",
+          "synonyms": [
+            "C90",
+            "C95",
+            "C99",
+            "C11",
+            "C18 ",
+            "C17"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "JAVA",
+          "synonyms": [
+            "JDK 1.0",
+            "JDK 1.1",
+            "JDK 1.2",
+            "J2SE 1.2",
+            "J2SE 1.3",
+            "J2SE 1.4",
+            "Java SE 6 ",
+            "Java SE 11.0. 7"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "slot",
+      "parent": "node_2_1593756363171",
+      "dialog_node": "slot_9_1593756727012",
+      "previous_sibling": "response_1_1593840056344"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593756363171",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1593840056344",
+      "previous_sibling": "response_3_1593756809243"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Progress Bar",
+            "source": "https://media.geeksforgeeks.org/wp-content/uploads/20200326010114/1st29.png",
+            "description": "Thankyou for attending!we will inform shortly",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1593756363171",
+      "conditions": "#memoryleak",
+      "dialog_node": "response_3_1593756809243"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593873764089",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1593874590439",
+      "previous_sibling": "response_2_1593874476049"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Progress Bar",
+            "source": "https://media.geeksforgeeks.org/wp-content/uploads/20200326010114/1st29.png",
+            "description": "Thankyou for attending!We will inform shortly!",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1593873764089",
+      "conditions": "@JAVA:(DriverManager provides a service of managing set of JDBC driver.)",
+      "dialog_node": "response_2_1593874476049"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1593873022698",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1593873621840",
+      "previous_sibling": "response_3_1593873584095"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is jdbc manager?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1593873022698",
+      "conditions": "@JAVA:(Covariant return type works only for non-primitive return types.)",
+      "dialog_node": "response_3_1593873584095"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Let me get some of your personal details"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1593409947769",
+      "conditions": "#Greetings",
+      "dialog_node": "response_8_1593412968045"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is virtual inheritance?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593596656626",
+      "conditions": "@program:(C++)",
+      "dialog_node": "response_5_1593769315059",
+      "previous_sibling": "response_10_1593596693524"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is huge Pointer?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593596656626",
+      "conditions": "@program:C",
+      "dialog_node": "response_10_1593596693524",
+      "previous_sibling": "node_2_1593756363171"
+    },
+    {
+      "type": "standard",
+      "title": "spaghetti",
+      "parent": "node_6_1593596656626",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#endlessloop || @endlessloopSpaghetti:(An endless loop can mean two things)",
+      "dialog_node": "node_1_1593755165719",
+      "previous_sibling": "node_1_1593752739767"
+    },
+    {
+      "type": "standard",
+      "title": "endlessloop",
+      "parent": "node_6_1593596656626",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#eclipstorage || @ellipstorage",
+      "dialog_node": "node_1_1593752739767",
+      "previous_sibling": "node_6_1593601000844"
+    },
+    {
+      "type": "standard",
+      "title": "status",
+      "parent": "node_6_1593596656626",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#memoryleak",
+      "dialog_node": "node_2_1593756363171",
+      "previous_sibling": "node_5_1593839418369"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please select above languages! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593596656626",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1593870603629",
+      "previous_sibling": "response_5_1593870558173"
+    },
+    {
+      "type": "standard",
+      "title": "memoryleak",
+      "parent": "node_6_1593596656626",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#spaghetti || @endlessloopSpaghetti:(It makes the program difficult to understand)",
+      "dialog_node": "node_5_1593839418369",
+      "previous_sibling": "node_1_1593755165719"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is monkey patching?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593596656626",
+      "conditions": "@program:PYTHON",
+      "dialog_node": "response_7_1593840239582",
+      "previous_sibling": "response_5_1593769315059"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is JIT compiler?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593596656626",
+      "conditions": "@program:JAVA",
+      "dialog_node": "response_5_1593870558173",
+      "previous_sibling": "response_7_1593840239582"
+    },
+    {
+      "type": "standard",
+      "title": "C-hugepointer",
+      "parent": "node_6_1593596656626",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#hugepointer || @hugepointer",
+      "dialog_node": "node_6_1593601000844"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Language selection",
+            "source": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/114404659/original/0cb4f0ad26249861e32653ad3d217790e90afaa7/develop-and-debug-your-c-python-java-and-arduino-projects.jpg",
+            "description": "Please choose any one language!!!",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_9_1593594873802",
+      "conditions": "@weakness",
+      "dialog_node": "response_10_1593595377311"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is  covariant return type?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1593872782765",
+      "conditions": "@JAVA:(You can initialize a final variable when it is declared.)",
+      "dialog_node": "response_4_1593872894509",
+      "previous_sibling": "response_9_1593872832327"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1593872782765",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1593872938410",
+      "previous_sibling": "response_4_1593872894509"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is  covariant return type?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1593872782765",
+      "conditions": "@JAVA:(A constructor with arguments is called parameterized constructor)",
+      "dialog_node": "response_9_1593872832327"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is parameterized constructor?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593870084100",
+      "conditions": "@JAVA:(JIT compiler is a component of the runtime environment)",
+      "dialog_node": "response_6_1593871400433",
+      "previous_sibling": "node_9_1593873764089"
+    },
+    {
+      "type": "standard",
+      "title": "status",
+      "parent": "node_10_1593870084100",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#jdbcmanager || @JAVA:(DriverManager provides a service of managing set of JDBC driver.)",
+      "dialog_node": "node_9_1593873764089",
+      "previous_sibling": "node_8_1593873022698"
+    },
+    {
+      "type": "standard",
+      "title": "jdbc manager",
+      "parent": "node_10_1593870084100",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#covariantreturntype || @JAVA:(Covariant return type works only for non-primitive return types.)",
+      "dialog_node": "node_8_1593873022698",
+      "previous_sibling": "node_3_1593872782765"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is final variable?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593870084100",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1593871463399",
+      "previous_sibling": "response_6_1593871400433"
+    },
+    {
+      "type": "standard",
+      "title": "covariant returntype",
+      "parent": "node_10_1593870084100",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#parameterizedconstructor || #finalvariable",
+      "dialog_node": "node_3_1593872782765"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593752739767",
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1593753336913",
+      "previous_sibling": "response_10_1593752852686"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is an endless loop?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593752739767",
+      "conditions": "@ellipstorage",
+      "dialog_node": "response_10_1593752852686"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How Would You keep yourself organized?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1593521481509",
+      "conditions": "@aboutyou",
+      "dialog_node": "response_10_1593521852704"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is persistent object?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593786761729",
+      "conditions": "@cpp:(volatile whenever its value could change unexpectedly)",
+      "dialog_node": "response_2_1593787011000",
+      "previous_sibling": "response_2_1593786917105"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593786761729",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1593787047726",
+      "previous_sibling": "response_2_1593787011000"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is persistent object?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593786761729",
+      "conditions": "@cpp:(A translation unit is any preprocessed source file.)",
+      "dialog_node": "response_2_1593786917105"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What are the different storage class specifiers in C?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593601000844",
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1593601165783",
+      "previous_sibling": "response_5_1593601040625"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is Ellipsis or … in c?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593601000844",
+      "conditions": "@hugepointer",
+      "dialog_node": "response_5_1593601040625"
+    },
+    {
+      "type": "standard",
+      "title": "flaskoutermost",
+      "parent": "node_8_1593840198606",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#kwargs || @python:(**kwargs allow you to pass multiple arguments)",
+      "dialog_node": "node_5_1593857479391",
+      "previous_sibling": "node_7_1593845376808"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is x range?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1593840198606",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1593842222630",
+      "previous_sibling": "response_1_1593842186346"
+    },
+    {
+      "type": "standard",
+      "title": "status",
+      "parent": "node_8_1593840198606",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#self",
+      "dialog_node": "node_6_1593869013901",
+      "previous_sibling": "node_10_1593868747917"
+    },
+    {
+      "type": "standard",
+      "title": "self",
+      "parent": "node_8_1593840198606",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#flask || @python:(**kwargs allow you to pass multiple arguments)",
+      "dialog_node": "node_10_1593868747917",
+      "previous_sibling": "node_5_1593857479391"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is python path?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1593840198606",
+      "conditions": "@python:(A Monkey Patching is a piece of Python code)",
+      "dialog_node": "response_1_1593842186346",
+      "previous_sibling": "node_6_1593869013901"
+    },
+    {
+      "type": "standard",
+      "title": "kwargs",
+      "parent": "node_8_1593840198606",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#pythonpath || #xrange",
+      "dialog_node": "node_7_1593845376808"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1593845376808",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1593845509153",
+      "previous_sibling": "response_4_1593845455505"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When does use **kwargs?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1593845376808",
+      "conditions": "@python:(Python path is an environment variable)",
+      "dialog_node": "response_4_1593845455505",
+      "previous_sibling": "response_2_1593845432169"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When does use **kwargs?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1593845376808",
+      "conditions": "@python:(xrange returns an xrange object)",
+      "dialog_node": "response_2_1593845432169"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is self in Python?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593868747917",
+      "conditions": "@python:(It is the block that defines the function's body.)",
+      "dialog_node": "response_8_1593868876993",
+      "previous_sibling": "response_7_1593868767177"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593868747917",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1593868962607",
+      "previous_sibling": "response_8_1593868876993"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is self in Python?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593868747917",
+      "conditions": "@python:(Flask is a web framework.)",
+      "dialog_node": "response_7_1593868767177"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is outermost scope?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1593857479391",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1593857556945",
+      "previous_sibling": "response_9_1593857533633"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is flask?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1593857479391",
+      "conditions": "@python:(**kwargs allow you to pass multiple arguments)",
+      "dialog_node": "response_9_1593857533633"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593839725628",
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1593839915404",
+      "previous_sibling": "response_3_1593839859875"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is Copy constructor?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1593839725628",
+      "conditions": "@cpp:(It is an object copies all of the member field values.)",
+      "dialog_node": "response_3_1593839859875"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1593839418369",
+      "conditions": "anything_else",
+      "dialog_node": "response_1_1593839544543",
+      "previous_sibling": "response_8_1593839507233"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is memory leak in C?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1593839418369",
+      "conditions": "@endlessloopSpaghetti:(It makes the program difficult to understand)",
+      "dialog_node": "response_8_1593839507233"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1593756727012",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1593756727056",
+      "previous_sibling": "handler_7_1593756727056"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1593756727012",
+      "event_name": "input",
+      "dialog_node": "handler_7_1593756727056"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Can i know the reason  why you want to quit your job and seek an opportunity in this company"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593501262049",
+      "conditions": "@status:working",
+      "dialog_node": "response_3_1593501441090",
+      "previous_sibling": "response_8_1593501296766"
+    },
+    {
+      "type": "standard",
+      "title": "onbreakyourself",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How Would You keep yourself organized?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593501262049",
+      "conditions": "#onbreak || @onbreak",
+      "dialog_node": "node_3_1593575584172",
+      "previous_sibling": "node_3_1593521481509"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What are you looking for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593501262049",
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1593502285216",
+      "previous_sibling": "response_1_1593501822160"
+    },
+    {
+      "type": "standard",
+      "title": "workyourself",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How Would You keep yourself organized?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593501262049",
+      "conditions": "#working || @working",
+      "dialog_node": "node_2_1593575532055",
+      "previous_sibling": "node_3_1593575584172"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Shall we proceed for interview?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593501262049",
+      "conditions": "@status:studying",
+      "dialog_node": "response_8_1593501296766",
+      "previous_sibling": "node_2_1593575532055"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Why you take break?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593501262049",
+      "conditions": "@status:onbreak",
+      "dialog_node": "response_1_1593501822160",
+      "previous_sibling": "response_3_1593501441090"
+    },
+    {
+      "type": "standard",
+      "title": "study",
+      "parent": "node_2_1593501262049",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#aboutyou || @aboutyou",
+      "dialog_node": "node_3_1593521481509"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593755165719",
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1593755288855",
+      "previous_sibling": "response_5_1593755215841"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is spaghetti programming?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593755165719",
+      "conditions": "@endlessloopSpaghetti:(An endless loop can mean two things)",
+      "dialog_node": "response_5_1593755215841"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is Volatile keyword?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593769617061",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1593770917859",
+      "previous_sibling": "response_8_1593770868278"
+    },
+    {
+      "type": "standard",
+      "title": "shallow copy ",
+      "parent": "node_9_1593769617061",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#PersistentObject || @cpp:(implemented in data storage systems like databases.)",
+      "dialog_node": "node_1_1593787125513",
+      "previous_sibling": "node_6_1593786761729"
+    },
+    {
+      "type": "standard",
+      "title": "status",
+      "parent": "node_9_1593769617061",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#copyConstructor || @cpp:(a copy constructor can be made private.)",
+      "dialog_node": "node_2_1593839679529",
+      "previous_sibling": "node_10_1593839725628"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "translation unit in c++?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1593769617061",
+      "conditions": "@cpp:(virtual inheritance you can no longer use class polymorphism)",
+      "dialog_node": "response_8_1593770868278",
+      "previous_sibling": "node_2_1593839679529"
+    },
+    {
+      "type": "standard",
+      "title": "copy constructor ",
+      "parent": "node_9_1593769617061",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#shallowcopy || @cpp:(It is an object copies all of the member field values.)",
+      "dialog_node": "node_10_1593839725628",
+      "previous_sibling": "node_1_1593787125513"
+    },
+    {
+      "type": "standard",
+      "title": "persistent object",
+      "parent": "node_9_1593769617061",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#transationalunit || #volatile",
+      "dialog_node": "node_6_1593786761729"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1593869013901",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1593870057152",
+      "previous_sibling": "response_1_1593869898778"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Progress Bar",
+            "source": "https://media.geeksforgeeks.org/wp-content/uploads/20200326010114/1st29.png",
+            "description": "Thankyou for attending!We will inform shortly!",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_6_1593869013901",
+      "conditions": "@python:(self represents the instance of the class)",
+      "dialog_node": "response_1_1593869898778"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1593839679529",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1593840163363",
+      "previous_sibling": "response_9_1593839959414"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Progress Bar",
+            "source": "https://media.geeksforgeeks.org/wp-content/uploads/20200326010114/1st29.png",
+            "description": "Thankyou for attending!We will inform shortly!",
+            "response_type": "image"
+          }
+        ]
+      },
+      "parent": "node_2_1593839679529",
+      "conditions": "@cpp:(a copy constructor can be made private.)",
+      "dialog_node": "response_9_1593839959414"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thankyou for attending!We will inform shortly!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593787125513",
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1593787926941",
+      "previous_sibling": "response_1_1593787916602"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is shallow copy?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1593787125513",
+      "conditions": "@cpp:(implemented in data storage systems like databases.)",
+      "dialog_node": "response_1_1593787916602"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "what's your gender"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1593416240720",
+      "conditions": "@aboutyou",
+      "dialog_node": "response_4_1593498188487"
+    },
+    {
+      "type": "standard",
+      "title": "program",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#weakness && @weakness",
+      "dialog_node": "node_9_1593594873802",
+      "previous_sibling": "node_9_1593583100994"
+    },
+    {
+      "type": "standard",
+      "title": "about",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#aboutyou && @aboutyou",
+      "dialog_node": "node_8_1593416240720",
+      "previous_sibling": "node_4_1593409947769"
+    },
+    {
+      "type": "standard",
+      "title": "C++-",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#virtualinheritance || @cpp:(virtual inheritance you can no longer use class polymorphism)",
+      "dialog_node": "node_9_1593769617061",
+      "previous_sibling": "node_6_1593596656626"
+    },
+    {
+      "type": "standard",
+      "title": "program-skills",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#programming",
+      "dialog_node": "node_6_1593596656626",
+      "previous_sibling": "node_9_1593594873802"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_10_1593870084100",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "java",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#JITcompiler",
+      "dialog_node": "node_10_1593870084100",
+      "previous_sibling": "node_8_1593840198606"
+    },
+    {
+      "type": "standard",
+      "title": "status",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#status || @status",
+      "dialog_node": "node_2_1593501262049",
+      "previous_sibling": "node_1_1593499125477"
+    },
+    {
+      "type": "standard",
+      "title": "remember",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Why you are interested in a position with our company?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#remember || @remember",
+      "dialog_node": "node_10_1593581510631",
+      "previous_sibling": "node_5_1593575724961"
+    },
+    {
+      "type": "standard",
+      "title": "greet",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Greetings",
+      "dialog_node": "node_4_1593409947769",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "yourself",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Which keeps you always remember?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#yourself || @yourself",
+      "dialog_node": "node_5_1593575724961",
+      "previous_sibling": "node_2_1593501262049"
+    },
+    {
+      "type": "standard",
+      "title": "Python",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#monkeypatching ||  @python:(A Monkey Patching is a piece of Python code)",
+      "dialog_node": "node_8_1593840198606",
+      "previous_sibling": "node_9_1593769617061"
+    },
+    {
+      "type": "standard",
+      "title": "gender",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What are you doing currently?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#gender",
+      "dialog_node": "node_1_1593499125477",
+      "previous_sibling": "node_8_1593416240720"
+    },
+    {
+      "type": "standard",
+      "title": "pos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok!Fine! Then What is your greatest weakness?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#position || @position",
+      "dialog_node": "node_9_1593583100994",
+      "previous_sibling": "node_10_1593581510631"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello!Welcome to Awesome profile!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Smart HR",
+  "language": "en",
+  "description": ""
+}
